@@ -26,11 +26,11 @@ To install kali you first need a VM. I recommend for a first time VM is using Vi
 
 # YOU BEEN WARN!!!!!!!!!!!!!!
 
-#Burp Suite
+# Burp Suite
 
 Kali come preinstalled with a vast variety of tools at your disposal. One of those key tools is BurpSuite. This tool is a hackers bestfriend. This tool is used for performing secuirty testing for web applications. Throughout our lessons we will be using this tool to do various things.
 
-##Configuration
+## Configuration
 
 Now that you have the VM setup we start on configuration. In teams I inlcuded the CA Cert for burp suite using firefox. Drag and drop that file into Kali. Next in firefox you want to install a add on called foxy proxy. This will be used as a listener for the browser and BurpSuite to talk with each other.
 
