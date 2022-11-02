@@ -22,7 +22,7 @@ To install kali you first need a VM. I recommend for a first time VM is using Vi
  
  # WARNING!!!!!!!!!!!!!!!
  
- The software you going to install is an actual OS used for hacking. Im assuming everyone here is a whitehat hacker, so if you every plan to do use this outside of a testing environment there will be reprocussions. Hopefully I didnt turn you into a super villan or introduce you to your villan arc. 
+ The software you going to install is an actual OS used for hacking. Im assuming everyone here is a whitehat hacker, so if you every plan to use this outside of a testing environment there will be reprocussions. Hopefully I didnt turn you into a super villan or introduce you to your villan arc. 
 
 # YOU BEEN WARN!!!!!!!!!!!!!!
 
