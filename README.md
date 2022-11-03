@@ -7,21 +7,21 @@ To install kali you'll first need a VM. I recommend for a first time VM is using
 
  - https://www.virtualbox.org/wiki/Downloads
  
- <img src="Virtual Box.gif" width="600">
+ <img src="Virtual Box.gif" width="700">
  
  Once you have downloaded the lastest version of it Virtualbox make sure to run it just in case that it ran correctly. Next Install the extension pack for all platforms. Once installed run that also and it should automatically install itself to Virtual Box.
  
- <img src="Extension Pack.gif" width="600">
+ <img src="Extension Pack.gif" width="700">
 
 
  ## Installing Kali
  
  Now that you have your VM installed next will be installing Kali Linux. This flavor of linux is used for Cyber Security and there is other flavors like Parrot Secuirty, RedHat, etc.. etc.. The link below will lead you to the offical Kali website. Before we download anything go to the Microsoft store and search for 7zip manager unoffical, this will be needed to extract Kali for installment. From here we will install the 7zip file which has the most current version of Kali for Virtual Box. Once that is installed into your machine, extract the file using 7zip.
  
- <img src="7 zip.gif" width="600">
+ <img src="7 zip.gif" width="700">
  
 
-<img src="Kali.gif" width="600">
+<img src="Kali.gif" width="700">
 
 
  - When extracting this be sure to extract it somewhere easy to find, or not you will be looking all over tying to find it.
@@ -31,11 +31,11 @@ To install kali you'll first need a VM. I recommend for a first time VM is using
  
  Once extracted go to the file and click on the vdi file to open it ( the one with the blue box). Doing this automatically opens up Virtual Box and installs Kali already preconfigured. Once it is installed run Kali to make sure it runs properly. 
  
- <img src="Installment.gif" width="600">
+ <img src="Installment.gif" width="700">
  
  On the laucher which is Virtual Box  turn off the machine or save the state. Go into the  machine settings, on the advance settings under the General tab make sure that the clipboard and Drag 'n' Drop are set to Bidirectional. This means you can transfer whatever from your host machine to the guest machine. 
  
-<img src="VM.gif" width="600"> 
+<img src="VM.gif" width="700"> 
  
  # WARNING!!!!!!!!!!!!!!!
  
@@ -53,11 +53,11 @@ Kali come preinstalled with a vast variety of tools at your disposal. One of tho
 
 Now that you have the VM setup we start on configuration. In teams I inlcuded the CA Cert for burp suite using firefox. Drag and drop that file into Kali. Next in firefox you want to install a add on called foxy proxy. This will be used as a listener for the browser and BurpSuite to talk with each other.
 
-<img src="Foxy.gif" width="600">
+<img src="Foxy.gif" width="700">
 
 Once that is installed, click on the options button to add a our proxy. Once you are in the settings of foxy proxy there will be nothing on it yet. Click on add and this is where the magic happens. Now on the top left click on the Kali dragon icon. In the search bar type burpsuite. Once the application shows in your search run burpsuite. Click next all the way. Now i'm assuming you are looking at the dashboard of burp, pretty cool huh? Ok focus, so in the Proxy tab there is a selection called "Options". Once you make you way to the options in the proxy tab of burp, there right in front of you is the IP address and port number, ` 127.0.0.1:8080 `. Add that into foxy proxy. Congrats you just set up your first proxy.
 
-<img src="Config.gif" width="600">
+<img src="Config.gif" width="700">
 
 Now that the easy part is done, time for the next easy part which is adding that CA Cert to your browser; without this cert running the listener is kinda pointless. 
 
