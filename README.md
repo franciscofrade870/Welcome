@@ -31,9 +31,11 @@ To install kali you first need a VM. I recommend for a first time VM is using Vi
  
  Once extracted go to the file and click on the vdi file to open it ( the one with the blue box). Doing this automatically opens up Virtual Box and installs Kali already preconfigured. Once it is installed run Kali to make sure it runs properly. 
  
- <img src=".gif" width="600">
+ <img src="Installment.gif" width="600">
  
  On the laucher which is Virtual Box  turn off the machine or save the state. Go into the settings, on the advance settings under the General tab make sure that the clipboard and Drag 'n' Drop are set to Bidirectional. This means you can transfer settings from your host machine to the guest machine. 
+ 
+<img src=".gif" width="600"> 
  
  # WARNING!!!!!!!!!!!!!!!
  
