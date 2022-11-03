@@ -53,5 +53,8 @@ Kali come preinstalled with a vast variety of tools at your disposal. One of tho
 
 Now that you have the VM setup we start on configuration. In teams I inlcuded the CA Cert for burp suite using firefox. Drag and drop that file into Kali. Next in firefox you want to install a add on called foxy proxy. This will be used as a listener for the browser and BurpSuite to talk with each other.
 
-<img src=".gif" width="600">
+<img src="Foxy proxy.gif" width="600">
+
+Once that is installed, click on the options button to add a our proxy. Once you are in the settings of foxy proxy there will be nothing on it yet. Click on add and this is where the magic happens. Now on the top left click on the Kali dragon icon. In the search bar type burpsuite. Once the application shows in your search run burpsuite. 
+
 
