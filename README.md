@@ -53,8 +53,26 @@ Kali come preinstalled with a vast variety of tools at your disposal. One of tho
 
 Now that you have the VM setup we start on configuration. In teams I inlcuded the CA Cert for burp suite using firefox. Drag and drop that file into Kali. Next in firefox you want to install a add on called foxy proxy. This will be used as a listener for the browser and BurpSuite to talk with each other.
 
-<img src="Foxy proxy.gif" width="600">
+<img src="Foxy.gif" width="600">
 
-Once that is installed, click on the options button to add a our proxy. Once you are in the settings of foxy proxy there will be nothing on it yet. Click on add and this is where the magic happens. Now on the top left click on the Kali dragon icon. In the search bar type burpsuite. Once the application shows in your search run burpsuite. 
+Once that is installed, click on the options button to add a our proxy. Once you are in the settings of foxy proxy there will be nothing on it yet. Click on add and this is where the magic happens. Now on the top left click on the Kali dragon icon. In the search bar type burpsuite. Once the application shows in your search run burpsuite. Click next all the way. Now i'm assuming you are looking at the dashboard of burp, pretty cool huh? Ok focus, so in the Proxy tab there is a selection called "Options". Once you make you way to the options in the proxy tab of burp, there right in front of you is the IP address and port number, ` 127.0.0.1:8080 `. Add that into foxy proxy. Congrats you just set up your first proxy.
+
+<img src="Config.gif" width="600">
+
+Now that the easy part is done, time for the next easy part which is adding that CA Cert to your browser; without this cert running the listener is kinda pointless. 
+
+### PSA
+Hey so I failed to realize that the cert on teams wont work as a CA in kali but it's ok cause I fixed it.
+
+OK at this point your firefox browser should be configured with the proxy. In the URL address bar type ` http://burpsuite `, type it just like that. It will redirect you to the a page that has the CA Cert. On the top right click the CA Certifiaction which will automatically download the file. You will get prompted asking how to you want to store it and such, just click save. 
 
 
+From here go back to Firefox, on the top right click the  menu, then settings. On the search bar type Cert which will pull up Certificates for Firefox. Choose ` View Certificates`. Lastly import the CA Cert which is located in the download directory by default. If you want to know whether or not the import was successful go back to view all the certificates and scroll down until you see portswigger CA. 
+
+## Finale
+
+Congrats ladies and gents you sucessfully installed a virtual machine, linux os, and configured a listener between a tool and browser. From this point forward you are now hackers in training. A wise old man once told me " With great power, comes great responsibility", so tread lightly because this one tool is pretty powerful if you know what your doing. Other than that mess aroung with it, become familar with it. I recommend logging into try hack me and view the lessons for burpsuite. Portswigger also has a free academy specific for Burp, so go ahead and check that out too. 
+
+If you got any questions feel free to reach me or Dr. Al-Omari for any help. 
+
+# See yall next time, stay groovy
