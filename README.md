@@ -11,7 +11,7 @@ To install kali you first need a VM. I recommend for a first time VM is using Vi
  
  Once you have downloaded the lastest version of it Virtualbox make sure to run it just in case that it ran correctly. Next Install the extension pack of ' all platforms'. Once installed run that also and it should automatically install itself to Virtual Box.
  
- <img src="" width="600">
+ <img src="Extension Pack.gif" width="600">
 
  
  ## Installing Kali
