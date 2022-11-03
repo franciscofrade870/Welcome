@@ -13,16 +13,27 @@ To install kali you first need a VM. I recommend for a first time VM is using Vi
  
  <img src="Extension Pack.gif" width="600">
 
- 
+
  ## Installing Kali
  
  Now that you have your VM installed next will be installing Kali Linux. This flavor of linux is used for Cyber Security and there is other flavors like Parrot Secuirty, RedHat, etc.. etc.. The link below will lead you to the offical kali website. Before we download anything go to the Microsoft store and search for 7zip manager unoffical, this will be needed to install kali. From here we will install the most current version of Kali for Virtual Box. Once that is installed into your machine, extract the file using 7zip.
  
- - When extracting this be sure to extract it somewhere easy to find, or not you will be looking all over tying to find it. 
+ <img src="7 zip.gif" width="600">
+ 
+
+<img src="Kali.gif" width="600">
+
+
+ - When extracting this be sure to extract it somewhere easy to find, or not you will be looking all over tying to find it.
+ * Unfortunately I wasn't able to record the extraction, but just use your imagination. :)
  
   - https://www.kali.org/get-kali/#kali-virtual-machines
  
- Once extracted go to the file and click on the vdi file to open it ( the one with the blue box). Doing this automatically opens up Virtual Box and installs Kali already preconfigured. Once it is installed run Kali to make sure it runs properly. On the laucher which is Virtual Box  turn off the machine or save the state. Go into the settings, on the advance settings under the General tab make sure that the clipboard and Drag 'n' Drop are set to Bidirectional. This means you can transfer settings from your host machine to the guest machine. 
+ Once extracted go to the file and click on the vdi file to open it ( the one with the blue box). Doing this automatically opens up Virtual Box and installs Kali already preconfigured. Once it is installed run Kali to make sure it runs properly. 
+ 
+ <img src=".gif" width="600">
+ 
+ On the laucher which is Virtual Box  turn off the machine or save the state. Go into the settings, on the advance settings under the General tab make sure that the clipboard and Drag 'n' Drop are set to Bidirectional. This means you can transfer settings from your host machine to the guest machine. 
  
  # WARNING!!!!!!!!!!!!!!!
  
