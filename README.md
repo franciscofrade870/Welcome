@@ -5,10 +5,14 @@ Installing kali and setting up BurpSuite
 
 To install kali you first need a VM. I recommend for a first time VM is using Virtual box. This app is free and just like VMware easy to use. The link below will take you to the site.
 
- -[] Link
+ - https://www.virtualbox.org/wiki/Downloads
+ 
+ <img src="Virtual Box.gif" width="600">
  
  Once you have downloaded the lastest version of it Virtualbox make sure to run it just in case that it ran correctly. Next Install the extension pack of ' all platforms'. Once installed run that also and it should automatically install itself to Virtual Box.
  
+ <img src="" width="600">
+
  
  ## Installing Kali
  
@@ -16,7 +20,7 @@ To install kali you first need a VM. I recommend for a first time VM is using Vi
  
  - When extracting this be sure to extract it somewhere easy to find, or not you will be looking all over tying to find it. 
  
- -[] Link
+  - https://www.kali.org/get-kali/#kali-virtual-machines
  
  Once extracted go to the file and click on the vdi file to open it ( the one with the blue box). Doing this automatically opens up Virtual Box and installs Kali already preconfigured. Once it is installed run Kali to make sure it runs properly. On the laucher which is Virtual Box  turn off the machine or save the state. Go into the settings, on the advance settings under the General tab make sure that the clipboard and Drag 'n' Drop are set to Bidirectional. This means you can transfer settings from your host machine to the guest machine. 
  
